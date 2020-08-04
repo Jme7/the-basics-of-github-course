@@ -1,9 +1,10 @@
-This is the description we show on the course page [here](https://lab.github.com/Jme7/the-basics-of-github). This first paragraph will be featured at the top of the page so make it great.
-​
+# The basics of GitHub
+A Learning Lab course on the basics of GitHub :tada:
 
-​
-Be sure to tell the learner about the technology you are teaching, why they should learn it, how they can use it, and what you will teach them.
-​
+### Prerequisites
+There are none!
 
-
-Include information on how they can reach you for questions about the content or course. 
+### What you will learn
+ - How to make a comment on an issue/pull request
+ - How to assign yourself to an issue
+ - How to commit changes on a new branch, then make a pull request

@@ -1,16 +1,18 @@
-title: The basics of GitHub
-description: Here you will learn how to use GitHub repositories
+title: 'The basics of GitHub part 1: Repositories'
+description: 'Here you will learn, well, just look at the title!'
 template:
   repo: the-basics-of-github-template
-  name: the-basics-of-github
+  name: the-basics-of-github-part-1
+  description: A Learning Lab course on the basics of GitHub
 before:
   - type: createIssue
     title: Welcome!
     body: new-issue.md
+  - type: updateBranchProtection
+    branch: master
+    enforce_admins: true
 steps:
-  - title: First step
-    description: The first step in your course
-    event: issues.assigned
+  - title: Make a comment
+    description: 'Simple step, but vital for issues and pull requests (PRs)'
+    event: issue_comment.created
     link: '{{ repoUrl }}'
-    actions:
-      - type: closeIssue

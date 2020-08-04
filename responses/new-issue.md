@@ -1,1 +1,1 @@
-Welcome to this course!
+Welcome! I am your friendly GitHub Learning Lab robot :robot: here to help you learn the basics! Today we are learning about repositories.
