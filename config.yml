@@ -1,0 +1,16 @@
+title: The basics of GitHub
+description: Here you will learn how to use GitHub repositories
+template:
+  repo: the-basics-of-github-template
+  name: the-basics-of-github
+before:
+  - type: createIssue
+    title: Welcome!
+    body: new-issue.md
+steps:
+  - title: First step
+    description: The first step in your course
+    event: issues.assigned
+    link: '{{ repoUrl }}'
+    actions:
+      - type: closeIssue
